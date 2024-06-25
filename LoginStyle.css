@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+ background-color: #EF7C8E;
+ margin-top: 150px;
+}
+
+.main{  
+    align-items: end;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    border-radius: 60px;  
+}
+
+.wel{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.input{
+    margin-top: 25px;
+}
+
+.inside {
+    background-color: #122620;
+    border-radius: 20px;
+    color: white;
+    height: 30px;
+    width: 280px
+}
+
+.pass{
+    background-color: #122620;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 280px;
+}
+
+button{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    height: 30px;
+    width: 180px;
+    margin-top: 40px;
+    background-color: #122620;
+    border-radius: 60px;
+}
+.last {
+    font-weight: 500;
+    margin-top: 5px;
+   
+}
+
+.last a{
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input ::placeholder{
+    color: white;
+    text-align: center;
+    
+}
+
